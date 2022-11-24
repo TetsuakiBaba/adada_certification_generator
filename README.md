@@ -1,4 +1,6 @@
 # ADADAのCertification関連を生成するためのpythonスクリプト
+データの本体は馬場にご連絡ください。github上にはこのREADME.mdしか上げていません。
+
 基本的な流れは以下の通り。
 1. pythonの必要なモジュールを入れた環境をanacondaで構築しておく
 2. 各ディレクトリに置かれている makeCertification.py を実行する。
@@ -24,3 +26,5 @@ python makeCertification.py
 ```  
 実行後同じディレクトリ内にある pdfs/ ディレクトリに生成されえたファイルが保存されている。
 
+## カスタマイズ
+各フォルダにある makeCertification.py を適時修正してください。簡単なコメントをいれています。また、賞状フォーマットについては、template.png というファイルを読み込んでその上にテキストを載せています。template.png 自体の修正を行う場合は、 template.ai がありますのでそちらを修正したのち、template.png に書き出してください。なおpngの保存形式は横幅4000pxとしています。
